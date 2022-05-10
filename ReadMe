@@ -1,0 +1,4 @@
+1. Установить библиотеки - pip3 install -Ur requirements.txt
+2. Создать базу данных - mydb
+3. Создать таблицы в базе - psql mydb < sql_scripts/create_database.sql
+4. Заполнить таблицы базы данных - psql mydb < sql_scripts/add_data_in_tables.sql
